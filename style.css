@@ -1,7 +1,5 @@
 body{
-    font-family: Arial, Helvetica, sans-serif;
-    border-style: solid;
-    
+    font-family: Arial, Helvetica, sans-serif;    
 }
 .category{
     font-size: large;
@@ -10,11 +8,31 @@ body{
     margin: 100px;
 }
 
-
-
-.border, td, tr {
-    border-style: dashed;
-    border-radius: 10px;
-    border-collapse: collapse;
-    border-color: black;
+table{
+    border-bottom: collapse;
+    width: 100%;
 }
+
+td, th{
+    padding: 5px;
+    margin: 5px;
+    width: 25%;
+}
+
+.tr1{
+    border-top: 2px solid rgb(255, 160, 160);
+    border-left:2px dotted black;
+    border-right: 2px dotted black;
+}
+
+.tr2{
+    border-left:2px dotted black;
+    border-right: 2px dotted black;
+}
+
+.tr3{
+    border-bottom: 2px solid rgb(42, 131, 255);
+    border-left:2px dotted black;
+    border-right: 2px dotted black;
+}
+
